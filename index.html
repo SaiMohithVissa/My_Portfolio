@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm Sai Mohith Vissa</h1>
+                    <p>Photography isn't just my passion—it's my way of seeing the world beyond limits. Every shot I take carries emotion, depth, and a story waiting to be told. From the spontaneity of mobile photography to the precision of DSLR captures, I strive to turn fleeting moments into timeless visuals. My journey has been about resilience, creativity, and pushing boundaries to redefine perspectives.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="IMAGES/introimage.jpg" alt="Portrait of photographer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="gallery-container">
+                <button class="nav-btn prev-btn" onclick="changeImage(-1)">&lt;</button>
+                <div class="gallery-view">
+                    <img src="IMAGES/PF1.jpg" alt="My award winnig Image of Fisherman fishng on the Godavari River beautifully framed in shilloute  at Golden Hour" class="active">
+                    <img src="IMAGES/PF2.jpg" alt="Portrait of a cute little baby with a backdrop of setting sun">
+                    <img src="IMAGES/PF3.png" alt="Portrait of people giving send off to Lord Ganesh">
+                    <img src="IMAGES/PF4.jpg" alt="A solo fisherman ready to fight the sea">
+                    <img src="IMAGES/PF5.jpg" alt="Creative shot of Lord Ganesh's idol through a Mobile Phone as a frame">
+                    <img src="IMAGES/PF6.jpg" alt="Outstanding shot of Sunrise through Clouds at sea">
+                    <img src="IMAGES/PF7.png" alt="Fine art photograph displaying fisherman ">
+                    <img src="IMAGES/PF8.jpg" alt="Sunrise">
+                    <img src="IMAGES/PF9.jpg" alt="Sunset through buildings">
+                    <img src="IMAGES/PF10.jpg" alt="shilloute of a person">
+                    <img src="IMAGES/PF11.jpg" alt="Shilloute of a person">
+                    <img src="IMAGES/PF12.jpg" alt="Shilloute of a person">
+                    <img src="IMAGES/PF13.jpg" alt="Collage of Shilloute's">
+                    <img src="IMAGES/PF14.jpg" alt="Creative shilloute of a person along with a flag in the frame">
+                    <img src="IMAGES/PF15.jpg" alt="Shilloute of a Temple in Varanasi at the time of sunrise">
+                    <img src="IMAGES/PF16.jpg" alt="Historic Temple in India built with rocks">
+                    <img src="IMAGES/PF17.jpg" alt="Beautiful landscape of Lonavla">
+                    <img src="IMAGES/PF18.jpg" alt="Creative shot of myself - Camera as my eye">
+                    <img src="IMAGES/PF19.JPG" alt="Shilloute of a person at rock beach at sunrise">
+                    <img src="IMAGES/PF20.jpg" alt="Fishermen getting ready for the sail">
+                    <img src="IMAGES/PF21.jpg" alt="Car after an adventure">
+                    <img src="IMAGES/PF22.jpg" alt="Guitar Strings">
+                    <img src="IMAGES/PF24.jpg" alt="Diya - Depham">
+                    <img src="IMAGES/PF25.jpg" alt="Lighting Diya - Depham">
+                    <img src="IMAGES/PF26.jpg" alt="Diya's on Diwali">
+                    <img src="IMAGES/PF27.jpg" alt="Diya's surrounded with rose petals in water">
+                    <img src="IMAGES/PF28.jpg" alt="Traditional Diya - Depham made with natural clay ">
+                    <img src="IMAGES/PF29.JPG" alt="A Solo Fisherman sailing on calm sea at Blue Hour">
+                </div>
+                <button class="nav-btn next-btn" onclick="changeImage(1)">&gt;</button>
+                <button class="expand-btn" onclick="expandGallery()">⤢</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievement-card">
+                <div class="achievement-content">
+                    <h3>Global Ability Photography Challenge Winner</h3>
+                    <p>Winning the Global Ability Photography Challenge was more than just an achievement—it was a turning point. Capturing a moment I once thought would be my last led to my first international recognition at UNESCO House. This honor reaffirmed my belief in the power of storytelling through photography and ignited a deeper commitment in me to advocate for ability, inclusion, and accessibility. It proved that creativity knows no limits, and I am more determined than ever to use my lens to inspire change.</p>
+                </div>
+                <div class="achievement-gallery">
+                    <img src="IMAGES/certificate.jpg" alt="Certificate of Excellence" loading="lazy">
+                    <img src="AWARD/2.jpg" alt="At the exhibition opening with honourable dignitaries" loading="lazy">
+                    <img src="AWARD/3.jpg" alt="With Tim Curtis - Regional Director UNESCO INDIA" loading="lazy">
+                    <img src="AWARD/4.jpg" alt="Me with the certificate and specially crafted Award" loading="lazy">
+                    <img src="AWARD/5.jpg" alt="With honourable dignitaries" loading="lazy">
+                    <img src="AWARD/6.jpg" alt="Me with my photo at the exhibition" loading="lazy">
+                    <img src="AWARD/7.jpg" alt="Recognization moment" loading="lazy">
+                    <img src="AWARD/8.jpg" alt="Interaction with UNIC Director Darren Farrent" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="featured">
+                    <h3>In the Spotlight</h3>
+                    <ul>
+                        <li>
+                            <a href="https://india.un.org/en/288898-photo-contest-zooms-disability-inclusion" class="featured-link">
+                                <span class="icon">↗</span>
+                                UN India's Article 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/posts/youth4jobs_an-event-that-mesmerized-the-hearts-of-delhi-activity-7288538384778608640-jpjJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFDx7d0BV1ItIRGLujhp0XV12zqLoE8UNYg" class="featured-link">
+                                <span class="icon">↗</span>
+                                Youth4Jobs Foundation's Post on GAPC
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/posts/sai-mohith-vissa-42597631a_gapc-globalabilityphotographychallenge-youth4jobsfoundation-activity-7289203745626710016-PQtl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFDx7d0BV1ItIRGLujhp0XV12zqLoE8UNYg" class="featured-link">
+                                <span class="icon">↗</span>
+                                My Experience at GAPC - UNESCO House
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="IMAGES/profileimage.jpg" alt="Profile Picture of Sai Mohith Vissa">
+                    </div>
+                    <h4>Sai Mohith Vissa</h4>
+                    <div class="social-links">
+                        <a href="mailto:vbpsm21@gmail.com" class="social-link">✉</a>
+                        <a href="https://www.linkedin.com/in/sai-mohith-vissa-42597631a" class="social-link">in</a>
+                        <a href="tel:+917997787272" class="social-link">📞</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for expanded gallery view -->
+    <div class="modal" id="galleryModal">
+        <button class="modal-close" onclick="closeModal()">×</button>
+        <div class="modal-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
